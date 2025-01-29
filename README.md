@@ -18,3 +18,4 @@ Worst-case: O(n²)
 Best-case: O(n) (when the list is already sorted)
 
 Average-case: O(n²)
+## Usage
