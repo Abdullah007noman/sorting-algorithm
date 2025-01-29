@@ -63,7 +63,7 @@ At the start of each iteration of the outer loop, the subarray arr[0..i-1] is so
 
 * Termination: When the outer loop completes (i = n-1), the subarray arr[0..n-2] is sorted and the last element arr[n-1] is already in its correct position. Thus, the entire array is sorted.
 
-Since the loop invariant holds before the loop starts, after each iteration, and upon termination, Selection Sort correctly sorts the input array.
+Given that the loop invariant holds before the start of the loop, after each iteration of the loop, and upon termination, the Selection Sort algorithm sorts the input array correctly.
 
 
 ## 3. Bubble Sort
