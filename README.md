@@ -10,7 +10,7 @@ This repository contains implementations of three fundamental sorting algorithms
 Each algorithm is implemented in Python and is accompanied by a brief explanation of how it works.
 ## 1. Insertion Sort
 Description:
-Insertion Sort builds the final sorted array one element at a time. It takes each element from the input and inserts it into its correct position in the already-sorted part of the array.
+Insertion sort builds a final sorted array one element at a time. It takes each element from the input and places it in the correct position in the already-sorted part of the array.
 
 ## Time Complexity <br />
 Worst-case: O(n²)
@@ -33,7 +33,7 @@ def insertion_sort(arr):
 
 ## 2.Selection Sort
 Description:
-Selection Sort works by repeatedly selecting the smallest (or largest, depending on the order) element from the unsorted portion of the list and swapping it with the first unsorted element. This process continues until the entire list is sorted.
+In Selection Sort, the smallest (or largest, depending on the order) element is repeatedly selected from the unsorted portion of the list, where it is swapped with the first unsorted element. This procedure is repeated until the list is sorted.
 
 ## Time Complexity <br />
 Worst-case: O(n²)
@@ -59,16 +59,16 @@ At the start of each iteration of the outer loop, the subarray arr[0..i-1] is so
 
 * Initialization: Before the first iteration (i = 0), the subarray arr[0..-1] is empty and trivially sorted.
 
-* Maintenance: During each iteration, the algorithm finds the smallest element in the unsorted portion of the array (arr[i..n-1]) and swaps it with arr[i]. This ensures that arr[i] is now in its correct position in the sorted portion of the array.
+* Maintenance: During each iteration, the algorithm finds the smallest element in the unsorted portion of the array (arr[i..n-1]) and swaps it with arr[i]. This confirms that arr[i] is now in its correct position in the sorted portion of the array.
 
-* Termination: When the outer loop completes (i = n-1), the subarray arr[0..n-2] is sorted, and the last element arr[n-1] is already in its correct position. Thus, the entire array is sorted.
+* Termination: When the outer loop completes (i = n-1), the subarray arr[0..n-2] is sorted and the last element arr[n-1] is already in its correct position. Thus, the entire array is sorted.
 
 Since the loop invariant holds before the loop starts, after each iteration, and upon termination, Selection Sort correctly sorts the input array.
 
 
 ## 3.Bubble Sort
 Description:
-Bubble Sort is a simple comparison-based sorting algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until the list is sorted.
+Bubble Sort refers to a very simplistic comparison sorting algorithm that repeatedly traverses the entire list, comparing two adjacent elements and swapping them if they are found to be in the wrong order. That is done until the list is sorted.
 
 ## Time Complexity<br />
 Worst-case: O(n²)
