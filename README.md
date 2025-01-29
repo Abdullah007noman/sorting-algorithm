@@ -29,4 +29,14 @@ def insertion_sort(arr):
             j -= 1
         arr[j + 1] = key
     return arr
-    ```
+
+##2.Selection Sort
+Description
+Selection Sort works by repeatedly selecting the smallest (or largest, depending on the order) element from the unsorted portion of the list and swapping it with the first unsorted element. This process continues until the entire list is sorted.
+
+Time Complexity
+Worst-case: O(n²)
+
+Best-case: O(n²)
+
+Average-case: O(n²)
