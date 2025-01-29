@@ -1,11 +1,11 @@
 # sorting-algorithm
 This repository contains implementations of three fundamental sorting algorithms:
 
-Bubble Sort
+-Bubble Sort
 
-Insertion Sort
+-Insertion Sort
 
-Selection Sort
+-Selection Sort
 
 Each algorithm is implemented in Python and is accompanied by a brief explanation of how it works.
 ## 1. Insertion Sort
@@ -30,7 +30,7 @@ def insertion_sort(arr):
         arr[j + 1] = key
     return arr
 
-##2.Selection Sort
+## 2.Selection Sort
 Description
 Selection Sort works by repeatedly selecting the smallest (or largest, depending on the order) element from the unsorted portion of the list and swapping it with the first unsorted element. This process continues until the entire list is sorted.
 
