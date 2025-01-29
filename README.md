@@ -93,7 +93,7 @@ def bubble_sort(arr):
 ## How to Use
 * Clone the Repository:
 ``` bash
-git clone https://github.com/Abdullah007noman/sorting-algorithms.git
+git clone https://github.com/Abdullah007noman/sorting-algorithm.git
 ```
 * Navigate to the repository:
 ``` bash
