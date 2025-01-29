@@ -91,17 +91,29 @@ def bubble_sort(arr):
 ```
 
 ## How to Use
-* 1.Clone the Repository:
+* Clone the Repository:
 ``` bash
 git clone https://github.com/your-username/sorting-algorithms.git
 ```
-Navigate to the repository:
+* Navigate to the repository:
 ``` bash
 cd sorting-algorithms
 ```
-Run the Python scripts to test the sorting algorithms:
+* Open the Jupyter Notebook:
+
+If you have Jupyter installed, run:
+
+```bash
+jupyter notebook
 ```
-```
+This will open the Jupyter interface in your browser. Navigate to the .ipynb file and open it.
+
+* Run the cells in the notebook:
+
+Each sorting algorithm is implemented in its own cell. You can run the cells individually to see how the algorithms work.
+
+To run a cell, select it and press Shift + Enter.
+
 
 
 
