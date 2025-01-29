@@ -91,7 +91,7 @@ def bubble_sort(arr):
 ```
 
 ## How to Use
-*1.Open the Notebook in Google Colab
+1.Open the Notebook in Google Colab
 Click the following link to open the notebook directly in Google Colab:
 (https://colab.research.google.com/)
 
@@ -106,7 +106,7 @@ Click File > Upload notebook and select the downloaded .ipynb file.
 2. Run the Code
 Once the notebook is open in Colab, you can run each cell by selecting it and pressing Shift + Enter.
 
-Each algorithm is accompanied by an example usage. Running the cell will display the sorted array.
+Each algorithm is associated by an example usage. Running the cell will show the sorted array.
 
 
 
