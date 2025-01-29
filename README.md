@@ -31,7 +31,7 @@ def insertion_sort(arr):
     return arr
 ```
 
-## 2.Selection Sort
+## 2. Selection Sort
 Description:
 In Selection Sort, the smallest (or largest, depending on the order) element is repeatedly selected from the unsorted portion of the list, where it is swapped with the first unsorted element. This procedure is repeated until the list is sorted.
 
@@ -66,7 +66,7 @@ At the start of each iteration of the outer loop, the subarray arr[0..i-1] is so
 Since the loop invariant holds before the loop starts, after each iteration, and upon termination, Selection Sort correctly sorts the input array.
 
 
-## 3.Bubble Sort
+## 3. Bubble Sort
 Description:
 Bubble Sort refers to a very simplistic comparison sorting algorithm that repeatedly traverses the entire list, comparing two adjacent elements and swapping them if they are found to be in the wrong order. That is done until the list is sorted.
 
