@@ -1,5 +1,5 @@
 # Sorting-algorithm
-This repository contains implementations of three sorting algorithms usnig python:
+This repository contains implementations of three sorting algorithms:
 
 * Bubble Sort
 
