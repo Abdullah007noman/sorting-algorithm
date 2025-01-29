@@ -95,6 +95,11 @@ def bubble_sort(arr):
  1. Open the Notebook in Google Colab
 Click the following link to open the notebook directly in Google Colab:
 (https://colab.research.google.com/)
+ 
+ Then clone this repository to your local machine using the following command:
+ ``` bash
+!git clone https://github.com/Abdullah007noman/sorting-algorithm.git
+```
 
 Alternatively, you can manually upload the notebook:
 
