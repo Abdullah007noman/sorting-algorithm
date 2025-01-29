@@ -1,11 +1,11 @@
-# sorting-algorithm
-This repository contains implementations of three fundamental sorting algorithms:
+# Sorting-algorithm
+This repository contains implementations of three sorting algorithms usnig python:
 
--Bubble Sort
+* Bubble Sort
 
--Insertion Sort
+* Insertion Sort
 
--Selection Sort
+* Selection Sort
 
 Each algorithm is implemented in Python and is accompanied by a brief explanation of how it works.
 ## 1. Insertion Sort
